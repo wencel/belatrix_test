@@ -1,0 +1,25 @@
+.title {
+  font-size: 24px;
+  margin: 10px 0px;
+}
+.tableGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1px;
+}
+.tableGridRow {
+  display: contents;
+}
+.tableGridHead {
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 3px 5px;
+  background: #ed4d6e;
+  color: white;
+}
+.tableGriditem {
+  border-radius: 5px;
+  padding: 3px 5px;
+  background: #cff3c6;
+  color: black;
+}

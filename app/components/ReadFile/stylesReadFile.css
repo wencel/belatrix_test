@@ -1,0 +1,27 @@
+.fileContainer {
+  margin-top: 20px;
+}
+.fileInput {
+  height: 1px;
+  width: 1px;
+  opacity: 0;
+}
+.btn {
+  border: 1px solid #ccc;
+  background: transparent;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #ed4d6e;
+  border-color: transparent;
+  color: white;
+}
+.btn:active,
+.btn:focus,
+.btn:active:focus {
+  outline: none;
+}
